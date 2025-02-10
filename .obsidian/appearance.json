@@ -1,0 +1,11 @@
+{
+  "cssTheme": "Purple Owl",
+  "showViewHeader": true,
+  "baseFontSizeAction": true,
+  "baseFontSize": 17,
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "full_window"
+  ],
+  "showRibbon": true
+}

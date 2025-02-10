@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "e14aad56662dcc3f",
+    "type": "split",
+    "children": [
+      {
+        "id": "b3126ccdd79ce595",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a2c05dfd3c8292fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OOP - notes/abc/sumamry_abc.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "sumamry_abc"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3ca885dc8ed85e9a",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7d45a43f2c801ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e57b062ff1c708ec",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7e721fca10aa5f56",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6f28b215b53f782e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 299
+  },
+  "right": {
+    "id": "d48dad08a4eb1eaf",
+    "type": "split",
+    "children": [
+      {
+        "id": "650822f2f4d83fec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c87368b9ff4dead4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "OOP/abc/sumamry_abc.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for sumamry_abc"
+            }
+          },
+          {
+            "id": "31ced66bdeea3169",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "a0f144f379e1f101",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5c7dab9fed56fb05",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "yet-another-obsidian-synchronizer:YAOS": false
+    }
+  },
+  "active": "a2c05dfd3c8292fe",
+  "lastOpenFiles": [
+    "README.md",
+    "OOP - notes/Untitled.md",
+    "OOP - notes/abc/sumamry_abc.md",
+    "TEMPLATES/Template.md",
+    "Untitled.md",
+    "OOP - notes/Python data types.md",
+    "PYTHON EXCEPTION.md",
+    "TEMPLATES",
+    "2025-02-10.md",
+    "OOP - notes/index OOP.md",
+    "PICTURES/- visual selection(1).png",
+    "PICTURES",
+    "PICTURES/- visual selection.png",
+    "Untitled.canvas",
+    "OOP/abc/sumamry_abc 1.md",
+    "OOP - notes/attributes/Lookup_attributes_oraz_kolejnosc.md",
+    "OOP - notes/attributes/glowne_pojecia_zwiazane_z_atts.md",
+    "OOP - notes/abc",
+    "OOP - notes/logging/summary_logging.md",
+    "OOP - notes/intro/podsumowanie.md",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
+    "Lookup_attributes.md",
+    "teoria.md",
+    "intro.md",
+    "OOP - notes/exceptions/summary_exceptions.md",
+    "OOP/attributes/teoria.md",
+    "OOP/attributes/Lookup_attributes.md",
+    "OOP - notes/logging",
+    "OOP - notes/intro",
+    "OOP - notes/exceptions",
+    "OOP - notes/attributes",
+    "OOP - notes",
+    "create a link.md",
+    "Welcome.md"
+  ]
+}
