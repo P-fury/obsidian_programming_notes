@@ -1,0 +1,44 @@
+# obsidian_programming_notes
+Obsidian Gitignore
+.gitignore dla Obsidian Vault
+
+Pliki systemowe
+
+.DS_Store Thumbs.db
+
+Pliki konfiguracyjne Obsidiana
+
+.obsidian/workspace.json .obsidian/cache
+
+Wtyczki i ich dane
+
+.obsidian/plugins/
+
+Historia otwieranych plików
+
+.obsidian/workspace .obsidian/workspace.json
+
+Pliki tymczasowe i kopie zapasowe
+
+*.swp *.swo .swn ~$
+
+Kopie zapasowe wtyczek i wersji lokalnych
+
+.obsidian/snippets/ .obsidian/backups/
+
+Pliki synchronizacji (jeśli używasz Obsidian Sync)
+
+.obsidian/obsidian.db .obsidian/obsidian.db-wal .obsidian/obsidian.db-shm
+
+Notatki oznaczone jako prywatne (możesz zmienić nazwę folderu)
+
+private/ secrets/
+
+Pliki eksportowane
+
+*.pdf *.docx *.pptx *.zip
+
+Backupy automatyczne
+
+backup/
+
