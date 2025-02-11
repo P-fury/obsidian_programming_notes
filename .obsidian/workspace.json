@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES/uv/UV commands.md",
+                "file": "NOTES/uv/Uvx Basic Command.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UV commands"
+              "title": "Uvx Basic Command"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#pending",
+                "query": "tag:#empty",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -190,10 +190,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d5f50774d96c285e",
+  "active": "e57b062ff1c708ec",
   "lastOpenFiles": [
+    "NOTES/uv/Uv Basic Commands.md",
+    "NOTES/uv/Uvx Basic Command.md",
     "NOTES/github/📌 Podstawowe komendy GitHub (Git).md",
-    "NOTES/uv/UV commands.md",
     "NOTES/uv",
     "README.md",
     "NOTES/OOP - notes/Python data types.md",

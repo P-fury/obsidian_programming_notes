@@ -2,7 +2,7 @@ Created: 2025-02-10 17:56
 
 --- 
 Note: 
-Uv Basic Commands
+
 📌 Podstawowe komendy uv
 
 uv to nowoczesny, ultralekki i szybki menedżer pakietów dla Pythona, który jest alternatywą dla pip i virtualenv. Jest rozwijany przez twórców pipenv i pdm i wyróżnia się wysoką wydajnością dzięki implementacji w Rust.
@@ -48,6 +48,29 @@ uv pip show nazwa_pakietu
 # Usunięcie pakietu z `pyproject.toml`
 uv remove nazwa_pakietu
 ```
+
+### 🔹 Tymczasowe środowisko UV
+
+```shell
+# uruchamia tymczasowe srodowisko z wybrana paczka
+uv run --with nazwa_paczki nazwa_pliku_py
+```
+
+## Przy większej ilości zależności:
+
+```python
+# w pytonie wprowadzamy liste
+
+# /// script
+# python = ">=3.10,<3.12"
+# dependencies = [
+#   "requests<3",
+#   "numpy>=1.21,<1.25",
+#   "pandas"
+# ]
+# ///
+```
+
 
 --- 
 Metadata: 
