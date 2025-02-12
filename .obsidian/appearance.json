@@ -1,3 +1,6 @@
 {
-  "cssTheme": "Purple Owl"
+  "cssTheme": "Purple Owl",
+  "enabledCssSnippets": [
+    "custom_template"
+  ]
 }

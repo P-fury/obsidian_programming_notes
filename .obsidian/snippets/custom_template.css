@@ -1,0 +1,9 @@
+/* Zmiana koloru kursywy w trybie podglądu */
+.markdown-preview-view em {
+    color: #32CD32 !important; /* Fluorescencyjny zielony */
+}
+
+/* Zmiana koloru kursywy w trybie edycji */
+.markdown-source-view.mod-cm6 .cm-em {
+    color: #228B22 !important; /* Fluorescencyjny zielony */
+}

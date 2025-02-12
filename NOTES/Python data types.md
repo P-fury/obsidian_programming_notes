@@ -16,17 +16,17 @@ Typy prymitywne to skalarne wartości, które przechowują pojedynczą wartość
 
 Typy złożone przechowują wiele wartości jednocześnie.
 
-|   |   |   |
-|---|---|---|
-|Typ|Opis|Właściwości|
-|`list`|Dynamiczna kolekcja elementów|Collection, Mutable, Ordered, Heterogenic|
-|`tuple`|Niemutowalna lista|Collection, Immutable, Ordered, Heterogenic|
-|`range`|Generuje sekwencję liczb|Collection, Immutable, Ordered|
-|`set`|Kolekcja unikalnych wartości|Collection, Mutable, Unordered, Heterogenic|
-|`frozenset`|Niemutowalna wersja `set`|Collection, Immutable, Unordered, Heterogenic|
-|`dict`|Mapa klucz-wartość|Collection, Mutable, Ordered (od Python 3.7+), Heterogenic|
-|`bytearray`|Mutowalna sekwencja bajtów|Collection, Mutable, Ordered|
-|`memoryview`|Widok na bufor pamięci|Collection, Immutable, Ordered|
+|              |                               |                                                                                    |
+| ------------ | ----------------------------- | ---------------------------------------------------------------------------------- |
+| Typ          | Opis                          | Właściwości                                                                        |
+| `list`       | Dynamiczna kolekcja elementów | Collection, Mutable, Ordered, Heterogenic, Nonhashab                               |
+| `tuple`      | Niemutowalna lista            | Collection, Immutable, Ordered, Heterogenic                                        |
+| `range`      | Generuje sekwencję liczb      | Collection, Immutable, Ordered                                                     |
+| `set`        | Kolekcja unikalnych wartości  | Collection, Mutable, Unordered, Heterogenic, Nonhashable                           |
+| `frozenset`  | Niemutowalna wersja `set`     | Collection, Immutable, Unordered, Heterogenic                                      |
+| `dict`       | Mapa klucz-wartość            | Collection, Mutable, Ordered (od Python 3.7+), Heterogenic, Key hashable Value NOT |
+| `bytearray`  | Mutowalna sekwencja bajtów    | Collection, Mutable, Ordered                                                       |
+| `memoryview` | Widok na bufor pamięci        | Collection, Immutable, Ordered                                                     |
 
 ## 3. Typ Specjalny (Special Type)
 
