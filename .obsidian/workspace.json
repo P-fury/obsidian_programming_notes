@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES/Protocols.md",
-                "mode": "preview",
+                "file": "NOTES/python - frameworks/RUFF - linter.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Protocols"
+              "title": "RUFF - linter"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sized.md",
+                "file": "NOTES/python basics/Python data types.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sized"
+              "title": "Python data types"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,16 +188,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8d9f11008b6523e9",
+  "active": "c9e0e8b0ac5773f1",
   "lastOpenFiles": [
-    "Sized.md",
-    "NOTES/Protocols.md",
+    "NOTES/python basics/Python data types.md",
+    "NOTES/python basics/Protocols.md",
+    "Iterable.md",
+    "NOTES/python basics/PYTHON EXCEPTION.md",
+    "NOTES/python - frameworks",
+    "NOTES/python basics",
+    "NOTES/python basics/Protocols Details",
+    "NOTES/Protocols details.md",
+    "NOTES/python - frameworks/RUFF - linter.md",
+    "NOTES/python basics/Protocols Details/Sized.md",
+    "NOTES/python - frameworks/MYPY - statyczna kontrola typow.md",
+    "NOTES/OOP - notes/abc/sumamry_abc.md",
+    "NOTES/python basics/Collection ABC.md",
     "**Sized**.md",
-    "NOTES/Python data types.md",
-    "NOTES/PYTHON EXCEPTION.md",
-    "NOTES/RUFF - linter.md",
-    "NOTES/Collection ABC.md",
-    "NOTES/MYPY - statyczna kontrola typow.md",
     "README.md",
     "NOTES/uv/Uv Basic Commands.md",
     "NOTES/uv/Uvx Basic Command.md",
@@ -208,7 +213,6 @@
     "NOTES/github",
     "NOTES",
     "TEMPLATES/Template.md",
-    "NOTES/OOP - notes/abc/sumamry_abc.md",
     "OOP - notes/Untitled.md",
     "TEMPLATES",
     "2025-02-10.md",
@@ -226,11 +230,6 @@
     "Untitled 1.canvas",
     "Lookup_attributes.md",
     "teoria.md",
-    "intro.md",
-    "NOTES/OOP - notes/exceptions/summary_exceptions.md",
-    "NOTES/OOP - notes/logging",
-    "NOTES/OOP - notes/intro",
-    "NOTES/OOP - notes/exceptions",
-    "NOTES/OOP - notes/attributes"
+    "NOTES/OOP - notes/logging"
   ]
 }
