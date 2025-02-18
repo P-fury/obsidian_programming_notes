@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES/python basics/Łączenie metaklas w Pythonie.md",
+                "file": "NOTES/python basics/Tworzenie obiektu w Pythonie – __prepare__, __new__, __init__.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Łączenie metaklas w Pythonie"
+              "title": "Tworzenie obiektu w Pythonie – __prepare__, __new__, __init__"
+            }
+          },
+          {
+            "id": "ac6fb513aac9c81b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES/python basics/Template Method z metaklasą.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Template Method z metaklasą"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343
+    "width": 343,
+    "collapsed": true
   },
   "right": {
     "id": "d48dad08a4eb1eaf",
@@ -174,27 +190,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "999f3c699a4c4fc2",
+  "active": "ac6fb513aac9c81b",
   "lastOpenFiles": [
-    "PICTURES/Hierarchia dziedziczenia metaklas i klas.png",
+    "NOTES/python basics/Protocols Details/Iterable.md",
+    "NOTES/python basics/Protocols.md",
+    "NOTES/python basics/Python data types.md",
     "NOTES/python basics/Łączenie metaklas w Pythonie.md",
     "NOTES/python basics/Collection ABC.md",
-    "NOTES/python - frameworks/MYPY - statyczna kontrola typow.md",
+    "NOTES/python basics/Template Method z metaklasą.md",
+    "TEMPLATES/Template.md",
+    "README.md",
+    "NOTES/python basics/Annotation.md",
     "NOTES/python basics/Tworzenie obiektu w Pythonie – __prepare__, __new__, __init__.md",
-    "NOTES/python basics/PYTHON EXCEPTION.md",
-    "NOTES/python basics/Python data types.md",
-    "Annotation.md",
-    "NOTES/python basics/Protocols.md",
-    "NOTES/python basics/Protocols Details/Sized.md",
+    "NOTES/python - frameworks/MYPY - statyczna kontrola typow.md",
     "NOTES/python - frameworks/RUFF - linter.md",
-    "Iterable.md",
+    "PICTURES/Hierarchia dziedziczenia metaklas i klas.png",
+    "NOTES/python basics/PYTHON EXCEPTION.md",
+    "NOTES/python basics/Protocols Details/Sized.md",
     "NOTES/python - frameworks",
     "NOTES/python basics",
     "NOTES/python basics/Protocols Details",
     "NOTES/Protocols details.md",
     "NOTES/OOP - notes/abc/sumamry_abc.md",
     "**Sized**.md",
-    "README.md",
     "NOTES/uv/Uv Basic Commands.md",
     "NOTES/uv/Uvx Basic Command.md",
     "NOTES/github/📌 Podstawowe komendy GitHub (Git).md",
@@ -202,7 +220,6 @@
     "NOTES/OOP - notes/index OOP.md",
     "NOTES/github",
     "NOTES",
-    "TEMPLATES/Template.md",
     "OOP - notes/Untitled.md",
     "TEMPLATES",
     "2025-02-10.md",
