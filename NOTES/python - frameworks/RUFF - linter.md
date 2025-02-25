@@ -29,4 +29,4 @@ ruff format .
 Metadata: 
 
 Status: #pending 
-Tags: #empty
+Tags: #python #ruff #linter

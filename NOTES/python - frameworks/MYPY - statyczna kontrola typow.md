@@ -32,4 +32,4 @@ mypy .
 Metadata: 
 
 Status: #pending 
-Tags: #python #python_projects #commands 
+Tags: #python #python_projects #commands #mypy
