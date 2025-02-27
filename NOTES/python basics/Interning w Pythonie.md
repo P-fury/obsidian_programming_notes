@@ -2,47 +2,70 @@ Created: 2025-02-27 12:29
 
 --- 
 Note:
-
 **📝 Interning w Pythonie**
 
-**Interning** to technika optymalizacji pamięci w Pythonie, polegająca na **ponownym użyciu tych samych obiektów** zamiast tworzenia nowych. Jest szczególnie stosowana dla **łańcuchów znaków (stringów)** oraz **liczb całkowitych (integers)**.
+  
 
-**🏷 1. Jak działa interning?**
+**Interning** to technika optymalizacji pamięci w Pythonie, która polega na **ponownym użyciu tych samych obiektów**, zamiast tworzenia nowych. Dzięki temu możemy **oszczędzać pamięć** i **przyspieszać porównania obiektów**.
 
-Python automatycznie stosuje interning dla:
-
-✅ **Małych liczb całkowitych (-5 do 256)** → są współdzielone w pamięci.
-
-✅ **Niektórych krótkich stringów** → zwłaszcza tych składających się tylko z liter i cyfr.
-
-✅ **Identycznych, niemutowalnych obiektów** → mogą być używane wielokrotnie zamiast tworzenia nowych.
+**📌 1. Jak działa interning?**
 
   
-**Przykład:**
+Python automatycznie internuje:
+
+✅ **Małe liczby całkowite (-5 do 256)** – te same wartości są współdzielone w pamięci.
+
+✅ **Niektóre krótkie stringi** – np. "hello" czy "python", jeśli składają się tylko z liter i cyfr.
+  
+
+Przykład:
 
 ```
 a = 100
 b = 100
-print(a is b)  # True, bo Python używa tej samej referencji w pamięci
+print(a is b)  # True
 
 x = "hello"
 y = "hello"
-print(x is y)  # True, bo krótkie stringi są internowane
+print(x is y)  # True
 ```
 
-📌 **Ale dłuższe stringi mogą nie być internowane automatycznie:**
+📌 **Python współdzieli obiekty, aby oszczędzać pamięć.**
 
-```
-s1 = "very_long_string_example"
-s2 = "very_long_string_example"
-print(s1 is s2)  # Może być False, bo Python nie musi ich internować
-```
-
-**🔥 2. Interning ręczny – sys.intern()**
+**🔥 2. Interning w obiektach – przykład cache’owania w __new__**
 
   
 
-Jeśli chcesz wymusić interning stringów, użyj **sys.intern()**:
+Interning można także **zaimplementować ręcznie** dla własnych klas poprzez **cache w __new__**, jak w kodzie ze zdjęcia:
+
+```
+class A:
+    _cache = {}  # Przechowywanie istniejących instancji
+
+    def __new__(cls, x, y):
+        key = f"{x}-{y}"  # Tworzymy unikalny klucz dla obiektu
+
+        if key not in cls._cache:
+            cls._cache[key] = super().__new__(cls)  # Tworzymy instancję tylko raz
+
+        return cls._cache[key]  # Zwracamy istniejącą instancję
+
+# Test
+a1 = A(1, 2)
+a2 = A(1, 2)
+a3 = A(3, 4)
+
+print(a1 is a2)  # True, bo obiekty są internowane
+print(a1 is a3)  # False, bo klucz (3,4) jest nowy
+```
+
+📌 **Obiekty o tych samych wartościach ((1,2)) są współdzielone, dzięki czemu oszczędzamy pamięć.**
+
+**⚡ 3. sys.intern() dla stringów**
+
+  
+
+Dla stringów możemy wymusić interning ręcznie za pomocą sys.intern():
 
 ```
 import sys
@@ -50,59 +73,26 @@ import sys
 s1 = sys.intern("very_long_string_example")
 s2 = sys.intern("very_long_string_example")
 
-print(s1 is s2)  # True, bo wymusiliśmy współdzielenie
+print(s1 is s2)  # True
 ```
 
-✅ **Kiedy używać sys.intern()?**
+📌 **Dzięki temu Python przechowuje tylko jedną kopię stringa w pamięci.**
 
-• Gdy masz **dużo powtarzających się stringów** (np. parsowanie plików XML, JSON).
-
-• Gdy chcesz **oszczędzać pamięć** i **przyspieszyć porównania** stringów.
-
-**🏷 3. Interning vs Memoization**
+**🚀 4. Podsumowanie**
 
   
 
-**Interning** przechowuje **identyczne obiekty**, które są **niemutowalne**.
+✅ **Interning** pozwala na **oszczędzanie pamięci** i **przyspieszanie porównań**.
 
-**Memoization** zapamiętuje **wyniki funkcji**, by uniknąć ponownych obliczeń.
+✅ Python **automatycznie internuje małe liczby i niektóre stringi**.
 
-  
+✅ **Możemy ręcznie wdrożyć interning** dla własnych obiektów poprzez **cache w __new__**.
 
-📌 **Interning:**
-
-```
-a = "python"
-b = "python"
-print(a is b)  # True (jeśli string jest internowany)
-```
-
-📌 **Memoization (np. w cache funkcji):**
-
-```
-from functools import lru_cache
-
-@lru_cache(maxsize=None)
-def fib(n):
-    if n < 2:
-        return n
-    return fib(n - 1) + fib(n - 2)
-
-print(fib(10))  # Zapamiętuje wyniki dla przyszłych wywołań
-```
-
-**🚀 Podsumowanie**
+✅ **sys.intern()** pozwala wymusić interning dla stringów.
 
   
 
-✅ **Interning oszczędza pamięć** poprzez ponowne użycie tych samych obiektów.
-
-✅ **Działa automatycznie** dla małych liczb i prostych stringów.
-
-✅ **sys.intern()** pozwala wymusić interning dla dłuższych stringów.
-
-✅ **Nie działa dla mutowalnych obiektów (np. list, słowników).**
-
+📌 **Warto stosować interning, gdy często używamy tych samych danych i chcemy oszczędzać zasoby.**
 --- 
 Metadata: 
 
