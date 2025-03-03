@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Interning w Pythonie"
             }
+          },
+          {
+            "id": "21d35e222d9d655b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,7 +189,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "35ba48fa3bf28ec1",
+  "active": "21d35e222d9d655b",
   "lastOpenFiles": [
     "NOTES/python basics/Name Mangling w Pythonie.md",
     "NOTES/python basics/Interning w Pythonie.md",
