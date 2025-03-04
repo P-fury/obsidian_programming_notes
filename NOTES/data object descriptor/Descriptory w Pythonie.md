@@ -45,11 +45,11 @@ class Magic:
 
     @BitFieldDescriptor
     def value_1(self):
-        return self.value_1
+        return self._value_1
 
     @value_1.setter
     def value_1(self, value):
-        self.value_1 = value
+        self._value_1 = value
 ```
 
 - **Atrybut** `**value_1**` w `Magic` używa `BitFieldDescriptor`, co oznacza, że jego dostęp i modyfikacja są kontrolowane przez ten descriptor.
