@@ -25,12 +25,14 @@
             "id": "21d35e222d9d655b",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.7"
+                "file": "NOTES/data object descriptor/Descriptory w Pythonie.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.7"
+              "icon": "lucide-file",
+              "title": "Descriptory w Pythonie"
             }
           }
         ],
@@ -92,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343,
-    "collapsed": true
+    "width": 343
   },
   "right": {
     "id": "d48dad08a4eb1eaf",
@@ -189,13 +190,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "21d35e222d9d655b",
+  "active": "c9e0e8b0ac5773f1",
   "lastOpenFiles": [
+    "NOTES/data object descriptor/Descriptory w Pythonie.md",
+    "NOTES/data object descriptor",
+    "Untitled.canvas",
+    "2025-03-04.md",
     "NOTES/python basics/Name Mangling w Pythonie.md",
     "NOTES/python basics/Interning w Pythonie.md",
     "PICTURES/- visual selection.png",
     "README.md",
-    "Untitled.canvas",
     "2025-02-22.md",
     "NOTES/python basics/Python data types.md",
     "NOTES/python basics/Collection ABC.md",
@@ -221,8 +225,6 @@
     "NOTES/OOP - notes/abc/sumamry_abc.md",
     "**Sized**.md",
     "NOTES/uv/Uv Basic Commands.md",
-    "NOTES/uv/Uvx Basic Command.md",
-    "NOTES/github/📌 Podstawowe komendy GitHub (Git).md",
     "NOTES/uv",
     "NOTES/github",
     "NOTES",
@@ -231,7 +233,6 @@
     "PICTURES",
     "NOTES/OOP - notes/abc",
     "Untitled 2.canvas",
-    "Untitled 1.canvas",
-    "NOTES/OOP - notes/logging"
+    "Untitled 1.canvas"
   ]
 }
