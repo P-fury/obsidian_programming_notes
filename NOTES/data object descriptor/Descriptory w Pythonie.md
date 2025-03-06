@@ -88,4 +88,5 @@ Descriptory w Pythonie to potężne narzędzie umożliwiające pełną kontrolę
 Metadata: 
 
 Status: #pending 
-Tags: #python 
+Tags: #python #python_descriptors
+```
