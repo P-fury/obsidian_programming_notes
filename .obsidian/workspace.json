@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "NOTES/binnary_programming/Liczby binarne, hex i bajty w Pythonie.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Welcome"
+              "title": "Outgoing links from Liczby binarne, hex i bajty w Pythonie"
             }
           },
           {
@@ -157,7 +157,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -169,10 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md"
+                "file": "NOTES/binnary_programming/Liczby binarne, hex i bajty w Pythonie.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "Outline of Liczby binarne, hex i bajty w Pythonie"
             }
           },
           {
@@ -203,7 +208,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dbc27ff101ddcff2",
+  "active": "c9e0e8b0ac5773f1",
   "lastOpenFiles": [
     "NOTES/binnary_programming/Bytes.md",
     "NOTES/binnary_programming/Liczby binarne, hex i bajty w Pythonie.md",
