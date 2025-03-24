@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES/binnary_programming/Bytes.md",
-                "mode": "preview",
+                "file": "NOTES/binnary_programming/Liczby binarne, hex i bajty w Pythonie.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bytes"
+              "title": "Liczby binarne, hex i bajty w Pythonie"
             }
           }
         ],
@@ -107,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343,
-    "collapsed": true
+    "width": 343
   },
   "right": {
     "id": "d48dad08a4eb1eaf",
@@ -206,9 +205,10 @@
   },
   "active": "dbc27ff101ddcff2",
   "lastOpenFiles": [
+    "NOTES/binnary_programming/Bytes.md",
+    "NOTES/binnary_programming/Liczby binarne, hex i bajty w Pythonie.md",
     "NOTES/python basics/Protocols.md",
     "NOTES/python basics/Collection ABC.md",
-    "NOTES/binnary_programming/Bytes.md",
     "NOTES/data object descriptor/Descriptory w Pythonie.md",
     "NOTES/binnary_programming",
     "NOTES/OOP - notes/abc/sumamry_abc.md",
@@ -236,7 +236,6 @@
     "NOTES/python basics/Protocols Details/Sized.md",
     "NOTES/python basics/Protocols Details/Hashable.md",
     "NOTES/python basics/Protocols Details/Iterable.md",
-    "NOTES/python basics/Protocols Details/Container.md",
     "NOTES/python - frameworks",
     "NOTES/python basics",
     "NOTES/python basics/Protocols Details",
