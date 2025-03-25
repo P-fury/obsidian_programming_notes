@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#empty",
+                "query": "tag:#hex",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +103,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -208,9 +209,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c9e0e8b0ac5773f1",
+  "active": "7e721fca10aa5f56",
   "lastOpenFiles": [
     "NOTES/binnary_programming/Bytes.md",
+    "NOTES/python basics/Name Mangling w Pythonie.md",
     "NOTES/binnary_programming/Liczby binarne, hex i bajty w Pythonie.md",
     "NOTES/python basics/Protocols.md",
     "NOTES/python basics/Collection ABC.md",
@@ -227,7 +229,6 @@
     "NOTES/OOP - notes/exceptions/summary_exceptions.md",
     "NOTES/python - frameworks/RUFF - linter.md",
     "NOTES/python basics/Łączenie metaklas w Pythonie.md",
-    "NOTES/python basics/Name Mangling w Pythonie.md",
     "NOTES/python basics/Python data types.md",
     "NOTES/python basics/PYTHON EXCEPTION.md",
     "NOTES/python basics/Template Method z metaklasą.md",

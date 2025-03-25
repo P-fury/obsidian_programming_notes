@@ -166,4 +166,4 @@ int('11010101', 2)  # 213
 Metadata: 
 
 Status: #pending 
-Tags: #python, #bity, #hex, #binarny, #bajty
+Tags: #python #bity #hex #binarny #bajty
