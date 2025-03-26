@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES/async/Event loop.md",
-                "mode": "source",
+                "file": "NOTES/async/Korutyna vs Generator.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Event loop"
+              "title": "Korutyna vs Generator"
             }
           }
         ],
@@ -107,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343
+    "width": 343,
+    "collapsed": true
   },
   "right": {
     "id": "d48dad08a4eb1eaf",
@@ -210,10 +211,11 @@
   },
   "active": "dbc27ff101ddcff2",
   "lastOpenFiles": [
-    "NOTES/binnary_programming/Liczby binarne, hex i bajty w Pythonie.md",
     "NOTES/async/Event loop.md",
-    "NOTES/async",
+    "NOTES/async/Korutyna vs Generator.md",
+    "NOTES/binnary_programming/Liczby binarne, hex i bajty w Pythonie.md",
     "NOTES/binnary_programming/Bytes.md",
+    "NOTES/async",
     "NOTES/python basics/Name Mangling w Pythonie.md",
     "NOTES/python basics/Protocols.md",
     "NOTES/python basics/Collection ABC.md",
@@ -241,7 +243,6 @@
     "README.md",
     "2025-02-22.md",
     "NOTES/python basics/Protocols Details/Sized.md",
-    "NOTES/python basics/Protocols Details/Hashable.md",
     "NOTES/python - frameworks",
     "NOTES/python basics",
     "NOTES/python basics/Protocols Details",
