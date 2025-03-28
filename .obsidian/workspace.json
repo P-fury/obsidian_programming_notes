@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES/async/Korutyna vs Generator.md",
+                "file": "NOTES/async/async pojecia.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Korutyna vs Generator"
+              "title": "async pojecia"
             }
           }
         ],
@@ -212,6 +212,7 @@
   "active": "dbc27ff101ddcff2",
   "lastOpenFiles": [
     "NOTES/async/Event loop.md",
+    "NOTES/async/async pojecia.md",
     "NOTES/async/Korutyna vs Generator.md",
     "NOTES/binnary_programming/Liczby binarne, hex i bajty w Pythonie.md",
     "NOTES/binnary_programming/Bytes.md",
@@ -242,7 +243,6 @@
     "NOTES/python basics/Interning w Pythonie.md",
     "README.md",
     "2025-02-22.md",
-    "NOTES/python basics/Protocols Details/Sized.md",
     "NOTES/python - frameworks",
     "NOTES/python basics",
     "NOTES/python basics/Protocols Details",
