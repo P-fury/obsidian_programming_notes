@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES/async/async pojecia.md",
-                "mode": "preview",
+                "file": "NOTES/async/async_python_korutyny.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "async pojecia"
+              "title": "async_python_korutyny"
             }
           }
         ],
@@ -107,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343,
-    "collapsed": true
+    "width": 343
   },
   "right": {
     "id": "d48dad08a4eb1eaf",
@@ -211,9 +210,16 @@
   },
   "active": "dbc27ff101ddcff2",
   "lastOpenFiles": [
-    "NOTES/async/Event loop.md",
-    "NOTES/async/async pojecia.md",
+    "NOTES/async/asyncio_event_loop.md",
     "NOTES/async/Korutyna vs Generator.md",
+    "NOTES/async/async pojecia.md",
+    "NOTES/async/async_python_korutyny.md",
+    "NOTES/async/Event loop.md",
+    "NOTES/python - frameworks/MYPY - statyczna kontrola typow.md",
+    "NOTES/Untitled",
+    "NOTES/python - frameworks/RUFF - linter.md",
+    "NOTES/uv/Uv Basic Commands.md",
+    "NOTES/uv/Uvx Basic Command.md",
     "NOTES/binnary_programming/Liczby binarne, hex i bajty w Pythonie.md",
     "NOTES/binnary_programming/Bytes.md",
     "NOTES/async",
@@ -226,12 +232,9 @@
     "NOTES/OOP - notes/attributes/glowne_pojecia_zwiazane_z_atts.md",
     "NOTES/OOP - notes/attributes/Lookup_attributes_oraz_kolejnosc.md",
     "NOTES/github/📌 Podstawowe komendy GitHub (Git).md",
-    "NOTES/python - frameworks/MYPY - statyczna kontrola typow.md",
     "PICTURES/- visual selection.png",
-    "NOTES/uv/Uv Basic Commands.md",
     "PICTURES/Hierarchia dziedziczenia metaklas i klas.png",
     "NOTES/OOP - notes/exceptions/summary_exceptions.md",
-    "NOTES/python - frameworks/RUFF - linter.md",
     "NOTES/python basics/Łączenie metaklas w Pythonie.md",
     "NOTES/python basics/Python data types.md",
     "NOTES/python basics/PYTHON EXCEPTION.md",
@@ -240,16 +243,12 @@
     "NOTES/data object descriptor",
     "Untitled.canvas",
     "2025-03-04.md",
-    "NOTES/python basics/Interning w Pythonie.md",
-    "README.md",
-    "2025-02-22.md",
     "NOTES/python - frameworks",
     "NOTES/python basics",
     "NOTES/python basics/Protocols Details",
     "NOTES/uv",
     "NOTES/github",
     "NOTES",
-    "TEMPLATES",
     "PICTURES/- visual selection(1).png",
     "Untitled 2.canvas",
     "Untitled 1.canvas"
